@@ -35,7 +35,7 @@ public class DB {
 			}
 		}
 	}
-
+	//Carregamento do arquivo DB properties
 	private static Properties loadProperties() {
 		try (FileInputStream fs = new FileInputStream("db.properties")) {
 			Properties props = new Properties();
